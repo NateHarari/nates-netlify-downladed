@@ -1,0 +1,109 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@font-face {
+  font-family: "SFPro-Semibold";
+  font-weight: 590;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5f6dc65cce49fd1ff55075ad/fonts/fontsfree-net-sfprodisplay-semibold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "SFPro-Regular";
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5efe6eb8e9407760a5475b2d/SF-Pro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  font-weight: 600;
+  src: url("https://anima-uploads.s3.amazonaws.com/5ad84aa54ce72e000be60463/SF-Pro-Display-Semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SFProText-Regular";
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6010c705359dfa63e5fbb24d/fonts/sf-pro-text-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/590905bc9bd1e9000d9686fa/SF-Pro-Display-BoldItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SFProText-Bold";
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5ad84aa54ce72e000be60463/SF-Pro-Text-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/5ad84aa54ce72e000be60463/SF-Pro-Display-Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5b7d556a58482d00094a3c58/SF-Pro-Display-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SFPro-Medium";
+  font-weight: 510;
+  src: url("https://anima-uploads.s3.amazonaws.com/5f0f0fe71911555ed50ab8f4/SF-Pro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5ad84aa54ce72e000be60463/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.full-height-a {
+  height: 100%;
+}
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
